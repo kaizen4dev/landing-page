@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 6px;
+  border-color: #3882F6;
+  border-style: none;
+  font-weight: bold;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header .links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .links a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  padding: 100px 10%;
+  gap: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .left .text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  width: 90%;
+}
+
+.hero .left .subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 5px 0;
+}
+
+.hero .right img {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20% 80px;
+  gap: 40px;
+}
+
+.info .images {
+  display: flex;
+  gap: 15px;
+  align-items: flex-top;
+  text-align: center;
+}
+
+.info .text {
+  font-size: 36px;
+  color: #1F2934;
+  font-weight: 900;
+}
+
+.info .images .box img{
+  width: 100%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 20px;
+}
+
+.info .images .box p{
+  color: #1f2937; 
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 80px 20%;
+  gap: 5px;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937
+}
+
+.quote .by {
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.container {
+  padding: 80px 10%;
+}
+
+.container .action {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.container .action .left .text{
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.container .action .left .subtext {
+  color: #E5E7EB
+}
+
+.container .action .right button{
+  border-color: white;
+  border-style: solid;
+}
+
+.footer {
+  text-align: center; 
+  color: #E5E7EB;
+  padding: 20px 0px;
+}
